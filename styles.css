@@ -1,0 +1,126 @@
+/* 
+colours: 
+--dark-liver: #474448ff;
+--raisin-black: #2d232eff;
+--bone: #e0ddcfff;
+--dark-liver-2: #534b52ff;
+--isabelline: #f1f0eaff;
+
+*/
+
+body {
+    max-width: 1200px;
+    min-width: 650px;
+    margin: auto;
+    background: #474448ff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+h2, #grades {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.main-page {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px auto;
+    padding: 50px 20px;
+    width: 800px;
+    border: 1px solid #e0ddcfff;
+    border-radius: 40px;
+    box-shadow: 1px 1px 80px 1px #e0ddcfff;
+}
+
+.main-btn {
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: #474448ff;
+    border: none;
+    font-size: 30px
+
+}
+
+.main-btn:hover {
+    border: 0px solid #2d232eff;
+    box-shadow: 1px 1px 40px 1px #e0ddcfff;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+    margin: 10px auto;
+    border: 5px solid #e0ddcfff;
+    border-radius: 30px;
+    width: 95%;
+
+}
+
+.nav-btn {
+    background: #474448ff;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.nav-btn:hover {
+    border: 0px solid #2d232eff;
+    box-shadow: 1px 1px 40px 1px #e0ddcfff;
+}
+
+a {
+    color: #e0ddcfff;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: 800;
+}
+
+#pdf {
+    display: flex;
+    justify-content: space-evenly;
+    color: #534b52ff;
+}
+
+a.pdf {
+    color: #534b52ff;
+    font-weight: 600;   
+}
+
+#personal-section {
+    display: flex;
+    justify-content: space-evenly;
+    background: #e0ddcfff;
+    color: #534b52ff;
+    padding: 20px;
+    border-radius: 50px;
+    margin: 20px;
+
+}
+
+#profile-img {
+    max-height: 300px;
+    border-radius: 100px;
+    margin: 20px;
+    margin-top: 100px;
+    border: 10px solid #534b52ff
+}
+
+
+.cf-section {
+    background: #e0ddcfff;
+    color: #534b52ff;
+    padding: 20px 100px 50px 100px;
+    border-radius: 50px;
+    margin: 20px;
+}
